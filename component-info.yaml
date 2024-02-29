@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-1"
+  annotations:
+    github.com/project-slug: dhruvmukherjee/aws-ec2
+    jenkins.io/job-full-name: "backstage-jenkins/demo-ec2-test"
+    backstage.io/techdocs-ref: dir:.
+  title: "IA for Instance Automation"
+  description: An example of a Instance Creation.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
